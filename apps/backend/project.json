@@ -1,7 +1,7 @@
 {
-  "name": "nest-workspace",
+  "name": "backend",
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
-  "sourceRoot": "apps/nest-workspace/src",
+  "sourceRoot": "apps/backend/src",
   "projectType": "application",
   "tags": [],
   "targets": {
@@ -9,14 +9,14 @@
       "executor": "@nx/js:node",
       "defaultConfiguration": "development",
       "options": {
-        "buildTarget": "nest-workspace:build"
+        "buildTarget": "backend:build"
       },
       "configurations": {
         "development": {
-          "buildTarget": "nest-workspace:build:development"
+          "buildTarget": "backend:build:development"
         },
         "production": {
-          "buildTarget": "nest-workspace:build:production"
+          "buildTarget": "backend:build:production"
         }
       }
     }
